@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(163, 238, 238);
+    margin: auto;
+    padding: 40px;
+}
+
+.container h1, h4 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+input {
+    width: 50%;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 16px;
+    outline: none;
+    
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+   margin: 5px;
+   padding: 5px;
+   border-radius: 10px;
+
+}
